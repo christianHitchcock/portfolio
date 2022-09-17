@@ -12,7 +12,7 @@
   }
   
   .header {
-    min-height: 100vh;
+    min-height: 75vh;
     width: 100%;
     background-color: var(--bg-white);
   }
@@ -84,13 +84,13 @@
  border-radius: 2px;
  color:var(--bg-white);
  background: var(--bg-orange);
- margin: 80px;
+ margin:10px 80px;
  padding: 5px;
 }
 
 #item-1 {
-  padding: 10px;
-  margin: 5px 10px;
+  padding: 5px;
+  margin: 15px 15px;
   font-size: 13px;
   line-height: 23px;
 }
@@ -128,26 +128,89 @@
 
   }
  
-
-
-
-
-
-
-
-
   /*-------- posts ------ */
 
   .posts {
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding-top: 0px;
-    background: red;
+    background: var(--bg-gray);
+    text-align: center;
   }
+
+  .posts div h3 {
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 400;
+    margin: 2px;
+  }
+
+  .row-content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-white);
+    margin: 10px 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid var(--bg-white);
+  }
+
+  .row  h2 {
+      margin: 5px;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 30px;
+      text-align: left;
+      
+  }
+.row span {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  margin: 10px 5px;
+}
+
+.row p {
+  font-size: 14px;
+  text-align: left;
+  padding-top: 2px;
+  line-height: 20px;
+  margin: 2px 11px;
+}
+/* -----media queries for post section ----- */
+@media only screen and (min-width:768px) {
+  .row {
+    display: flex;
+    flex-direction:row;
+  }
+  .row-content {
+    border: 1px solid red;
+  }
+  .posts div h3 {
+    text-align: left;
+    margin-left:60px; 
+  }
+  #rowContent {
+    margin-left: 80px;
+    margin-bottom: 5px;
+  }
+#rowContent-1 {
+  margin-right: 80px;
+  margin-bottom: 5px;
+}
+  .row p {
+    padding-bottom: 30px;
+    margin-right:50px;
+  }
+
+}
 
 
   /* -----media queries for menu bar ----- */
    @media (max-width:768px) { 
+    .header {
+      min-height: 100vh;
+    }
     .nav-links {
       position: absolute;
       height: 100vh;
