@@ -1,0 +1,87 @@
+/*  media queries for text box */
+@media only screen and  (min-width:1199px) { 
+  .text-box {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+.text-box div img {
+  width: 243px;
+  height: 243px;
+  margin:50px;
+  padding-right: 50px;
+} 
+.text-box-middle {
+  margin: 50px;
+  text-align: center;
+}
+.text-box div h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+}
+#item-1 {
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.text-box-middle a {
+margin-right: 289px;
+margin-top: 50px;
+}
+/* -----media queries for post section ----- */
+
+.row {
+  display: flex;
+  flex-direction:row;
+}
+.posts div h3 {
+  text-align: left;
+  margin-left:60px; 
+}
+#rowContent {
+  margin-left: 80px;
+  margin-bottom: 5px;
+}
+#rowContent-1 {
+margin-right: 80px;
+margin-bottom: 5px;
+}
+.row p {
+  padding-bottom: 30px;
+  margin-right:50px;
+}
+
+/* media queries for featured works  */
+
+.works-layer-content {
+display: flex;
+justify-content: space-between;
+}
+.works-layer div img {
+width: 246px;
+height: 180px;
+margin-left: 120px;
+}
+/* media queries for blogs */
+.blogs .row {
+display:flex;
+flex-direction: column;
+}
+.blogs .row-content {
+margin:0px 250px;
+}
+.blogs h3 {
+margin-left:100px ;
+}
+.blogs p {
+padding-right:150px ;
+}
+.blogs hr {
+margin-left:  100px;
+margin-right: 250px;
+}
+}
