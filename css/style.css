@@ -274,6 +274,24 @@
 .contents {
   display: none;
 }
+.work-details h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34px;
+}
+.work-details div button {
+  background: #FF7C7C;
+  border: 1px solid #FF7C7C;
+}
+.work-details div span {
+color:  var(--bg-dark);
+font-size: 18px;
+line-height: 16px;
+
+}
+.work-details h5 {
+  margin: 12px;
+}
 /*  footer styles */
 .footer {
   width: 100%;

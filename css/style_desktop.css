@@ -59,25 +59,36 @@
     height: 180px;
     margin-left: 120px;
   }
-  
-  .blogs .row {
+ .works-container {
+      margin: 5% 10%;
+}
+
+.work-details h3 {
+      margin-right: 60%;
+}
+.works-container div img {
+      width:681px;
+      height: 460px;
+      margin-left: 1%;
+}
+.blogs .row {
     display:flex;
     flex-direction: column;
-  }
-  .blogs .row-content {
+}
+.blogs .row-content {
     margin:0px 250px;
-  }
-  .blogs h3 {
+}
+.blogs h3 {
     margin-left:100px ;
-  }
-  .blogs p {
+}
+.blogs p {
     padding-right:150px ;
-  }
-  .blogs hr {
+}
+.blogs hr {
     margin-left:  100px;
     margin-right: 250px;
-  }
-  .works-layer h2 {
+}
+.works-layer h2 {
       margin-left:110px ;
-  }
+}
 }
