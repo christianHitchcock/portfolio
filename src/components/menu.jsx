@@ -40,8 +40,8 @@ const Navbar = () => {
                                 <li><a className="sd-link" href="about">About<FaUser/></a></li>
                                 <li><a className="sd-link" href="about">Projects<FaTools/></a></li>
                                 <li><a className="sd-link" href="about">Contact<FaMailBulk/></a></li>
-                                <li><a className="sd-link" href="about"  id="download"><FaCloudDownloadAlt color="black"/> Download Resume</a></li>
-                                <li><a className="sd-link" href="https://bmc.link/hitchcock" id="coffee" target="_blank" rel="noreferrer"><CiCoffeeCup color="black"/> Buy me a coffee</a></li>
+                                <li><a className="sd-link" href="about"  id="download"> Download Resume<FaCloudDownloadAlt color="black"/></a></li>
+                                <li><a className="sd-link" href="https://bmc.link/hitchcock" id="coffee" target="_blank" rel="noreferrer"> Buy me a coffee<CiCoffeeCup color="black"/></a></li>
                             </ul>
                         </div>
                     </div>
