@@ -41,7 +41,7 @@ const Navbar = () => {
                                 <li><a className="sd-link" href="about">Projects</a></li>
                                 <li><a className="sd-link" href="about">Contact</a></li>
                                 <li><a className="sd-link" href="about"  id="download"><FaCloudDownloadAlt color="black"/> Download Resume</a></li>
-                                <li><a className="sd-link" href="about" id="coffee"><CiCoffeeCup color="black"/> Buy me a coffee</a></li>
+                                <li><a className="sd-link" href="https://bmc.link/hitchcock" id="coffee" target="_blank" rel="noreferrer"><CiCoffeeCup color="black"/> Buy me a coffee</a></li>
                             </ul>
                         </div>
                     </div>

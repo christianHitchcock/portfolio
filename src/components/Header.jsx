@@ -31,7 +31,9 @@ function Header () {
                     <p>I'm christian,a software engineer with a focus on the frontend development,
                          but still exploring other technologies and frameworks that catch my interest! 
                         I love combining the worlds of logic and creative design to make eye-catching, 
-                        accessible, and user-friendly websites and applications.</p>
+                        accessible, and user-friendly websites and applications. i pratice minimalism in photography , 
+                        designs and my daily life . 
+                        my personal values are growth , honesty , transparency, kindness & empathy.</p>
                        <div className="icons">
                         <Link href="https://github.com/christianHitchcock" isExternal  ><FaGithubSquare className="icon" /></Link>
                         <Link href= "https://www.instagram.com/christian__hitchcock" isExternal ><FaInstagramSquare className="icon"/></Link>
@@ -39,7 +41,7 @@ function Header () {
                         <Link href= "https://twitter.com/Theaftercolors" isExternal ><FaTwitterSquare className="icon"/></Link>  
                        </div>  
                         <Button rightIcon={<ArrowForwardIcon />} colorScheme='teal' variant='outline'>
-                            See More
+                            See More About Me
                         </Button>
                 </div>
             </div>

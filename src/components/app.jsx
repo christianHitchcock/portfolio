@@ -23,7 +23,6 @@ function App (){
     return(
         <div className="container">
             <Header/>
-            <hr></hr>
             {/* <h1> Projects</h1>
             {project.map(createCard)}
            <button>View All Projects </button>
