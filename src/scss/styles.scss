@@ -9,8 +9,11 @@
 
 html,body {
   font-family: Helvetica, sans-serif;
+  // background-color: #060314;
+  // background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
   background-color: #060314;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
+background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .container {
   h1 {
@@ -36,6 +39,12 @@ html,body {
     color: #d9dcde;
     animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   }
+  button:hover {
+    background-color: #d9dcde;
+    color: rgb(6, 3, 20);
+    transition: ease-in-out 1s;
+  }
+  
 }
 
 /* ---Sidebar css */
@@ -111,7 +120,8 @@ html,body {
     margin-bottom: 8px;
 }
 .sd-body ul li .sd-link{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     margin-top: 5px;
     padding: 10px 16px;
@@ -289,3 +299,64 @@ footer {
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .container {
+    align-items: center;
+    margin: 10px 200px;
+  }
+  .heading {
+    
+    h1{
+      font-size: 3.2rem;
+      margin-right: 40rem;
+      font-weight: 800;
+      color: #d9dcde;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p{
+      color: #838383;
+      padding-top: 10px;
+      padding-left: 22px;
+      line-height: 30px;
+      font-size: 20px;
+      padding-right: 20px;
+      font-weight: 500;
+      margin-right: 20rem;
+      margin-bottom: 20px;
+    }
+    .icons {
+      display: flex;
+      font-size: 50px;
+      margin-left: 22px;
+      margin-bottom: 30px;
+      .icon {
+        padding-right: 20px;
+        color: #838383;
+      }
+    :hover {
+      color:#77E4D4 ;
+      font-size: 70px;
+    }
+    }
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    margin: 20px 0px; 
+    padding: 10px;
+    border-top:1px solid #636363 ;
+    p {
+      color: #ccc;
+      font-size: 15px;
+      span {
+        color: #77E4D4;
+      }
+    }
+   
+    .coffee { 
+      font-size: 40px;
+    }
+  }
+}

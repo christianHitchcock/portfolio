@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import { FaTimes,FaCloudDownloadAlt } from "react-icons/fa";
+import { FaTimes,FaCloudDownloadAlt ,FaHome,FaUser,FaTools,FaMailBulk} from "react-icons/fa";
 import {FiMenu} from "react-icons/fi"
 import {CiCoffeeCup} from "react-icons/ci"
 
@@ -36,10 +36,10 @@ const Navbar = () => {
                         </div>
                         <div className="sd-body">
                             <ul>
-                                <li><a className="sd-link" href="about">Home</a></li>
-                                <li><a className="sd-link" href="about">About</a></li>
-                                <li><a className="sd-link" href="about">Projects</a></li>
-                                <li><a className="sd-link" href="about">Contact</a></li>
+                                <li><a className="sd-link" href="about">Home<FaHome/></a> </li>
+                                <li><a className="sd-link" href="about">About<FaUser/></a></li>
+                                <li><a className="sd-link" href="about">Projects<FaTools/></a></li>
+                                <li><a className="sd-link" href="about">Contact<FaMailBulk/></a></li>
                                 <li><a className="sd-link" href="about"  id="download"><FaCloudDownloadAlt color="black"/> Download Resume</a></li>
                                 <li><a className="sd-link" href="https://bmc.link/hitchcock" id="coffee" target="_blank" rel="noreferrer"><CiCoffeeCup color="black"/> Buy me a coffee</a></li>
                             </ul>

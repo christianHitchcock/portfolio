@@ -230,7 +230,8 @@ header .animate-scroll {
 html, body {
   font-family: Helvetica, sans-serif;
   background-color: #060314;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
+  background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .container h1 {
@@ -247,12 +248,17 @@ html, body {
   margin-bottom: 20px;
   padding: 1em 2em;
   text-transform: uppercase;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   letter-spacing: 0.1em;
   transition: border 500ms, background-color 500ms, color 500ms;
   cursor: pointer;
   color: #d9dcde;
   animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.container button:hover {
+  background-color: #d9dcde;
+  color: rgb(6, 3, 20);
+  transition: ease-in-out 1s;
 }
 
 /* ---Sidebar css */
@@ -280,10 +286,10 @@ html, body {
 }
 
 .sidebar {
-  width: 230px;
+  width: 250px;
   min-height: 100vh;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
-  background-color: #e5e8ec;
+  background-color: #c7c7c8;
   position: fixed;
   top: 0;
   right: -100%;
@@ -338,7 +344,8 @@ html, body {
 }
 
 .sd-body ul li .sd-link {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   margin-top: 5px;
   padding: 10px 16px;
@@ -347,6 +354,7 @@ html, body {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
   border-radius: 4px;
   cursor: pointer;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -372,7 +380,6 @@ html, body {
 .heading {
   margin-top: 15px;
   margin-bottom: 50px;
-  border: 1px solid red;
   animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .heading h1 {
@@ -386,8 +393,8 @@ html, body {
   padding-top: 10px;
   padding-left: 22px;
   line-height: 25px;
-  font-size: 15px;
-  padding-right: 15px;
+  font-size: 18px;
+  padding-right: 20px;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -495,6 +502,7 @@ footer {
   width: 100%;
   margin: 20px 0px;
   padding: 10px;
+  border-top: 1px solid #636363;
 }
 footer p {
   color: #ccc;
@@ -504,9 +512,66 @@ footer p span {
   color: #77E4D4;
 }
 footer .coffee {
-  color: #000000;
-  background-color: #efe823;
-  font-size: 25px;
+  color: #efe823;
+  font-size: 30px;
   padding: 10px;
   border-radius: 50%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    align-items: center;
+    margin: 10px 200px;
+  }
+  .heading h1 {
+    font-size: 3.2rem;
+    margin-right: 40rem;
+    font-weight: 800;
+    color: #d9dcde;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .heading p {
+    color: #838383;
+    padding-top: 10px;
+    padding-left: 22px;
+    line-height: 30px;
+    font-size: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+    margin-right: 20rem;
+    margin-bottom: 20px;
+  }
+  .heading .icons {
+    display: flex;
+    font-size: 50px;
+    margin-left: 22px;
+    margin-bottom: 30px;
+  }
+  .heading .icons .icon {
+    padding-right: 20px;
+    color: #838383;
+  }
+  .heading .icons :hover {
+    color: #77E4D4;
+    font-size: 70px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px;
+    border-top: 1px solid #636363;
+  }
+  footer p {
+    color: #ccc;
+    font-size: 15px;
+  }
+  footer p span {
+    color: #77E4D4;
+  }
+  footer .coffee {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=styles.css.map */
