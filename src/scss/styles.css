@@ -228,13 +228,13 @@ header .animate-scroll {
 }
 
 html, body {
-  font-family: "Inter", sans-serif;
+  font-family: Helvetica, sans-serif;
   background-color: #060314;
   background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
 }
 
 .container h1 {
-  color: #d9dcde;
+  color: #d0d0d0;
   margin: 10px 20px;
   font-size: 30px;
 }
@@ -243,9 +243,9 @@ html, body {
   border: 2px solid #77E4D4;
   background-color: transparent;
   border-radius: 2em;
-  margin-left: 120px;
+  margin-left: 15px;
   margin-bottom: 20px;
-  padding: 1em;
+  padding: 1em 2em;
   text-transform: uppercase;
   font-size: 0.6rem;
   letter-spacing: 0.1em;
@@ -276,7 +276,7 @@ html, body {
 
 .btn-primary {
   color: #77E4D4;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .sidebar {
@@ -371,30 +371,35 @@ html, body {
 
 .heading {
   margin-top: 15px;
+  margin-bottom: 50px;
+  border: 1px solid red;
   animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .heading h1 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 800;
   color: #d9dcde;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 .heading p {
-  color: rgba(226, 226, 226, 0.8784313725);
-  padding-top: 5px;
+  color: #838383;
+  padding-top: 10px;
   padding-left: 22px;
-  line-height: 20px;
-  font-size: 13px;
+  line-height: 25px;
+  font-size: 15px;
   padding-right: 15px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 .heading .icons {
   display: flex;
   font-size: 40px;
   margin-left: 22px;
+  margin-bottom: 15px;
 }
 .heading .icons .icon {
   padding-right: 20px;
-  color: #ffffff;
+  color: #838383;
 }
 .heading .icons :hover {
   color: #77E4D4;
