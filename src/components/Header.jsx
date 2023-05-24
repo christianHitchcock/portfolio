@@ -28,7 +28,7 @@ function Header () {
                     <h1>SOFTWARE DEVELOPER,
                         DIGITAL CREATOR.
                     </h1>
-                    <p>I'm christian,a software engineer with a focus on the frontend development,
+                    <p> Hello, I'm christian,a software Developer with a focus on the frontend development,
                          but still exploring other technologies and frameworks that catch my interest! 
                         I love combining the worlds of logic and creative design to make eye-catching, 
                         accessible, and user-friendly websites and applications. i pratice minimalism in photography , 

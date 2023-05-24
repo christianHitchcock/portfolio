@@ -29,7 +29,7 @@ html,body {
     margin-bottom: 20px;
     padding: 1em 2em;
     text-transform: uppercase;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     letter-spacing: 0.1em;
     transition: border 500ms, background-color 500ms, color 500ms;
     cursor: pointer;
@@ -120,6 +120,7 @@ html,body {
     box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
     border-radius: 4px;
     cursor: pointer;
+    font-size: 18px;
     text-decoration: none;
 }
 .sd-link:hover {
@@ -155,8 +156,8 @@ html,body {
     padding-top: 10px;
     padding-left: 22px;
     line-height: 25px;
-    font-size: 15px;
-    padding-right: 15px;
+    font-size: 18px;
+    padding-right: 20px;
     font-weight: 500;
     margin-bottom: 20px;
   }
@@ -282,7 +283,7 @@ footer {
  
   .coffee {
     color:  #efe823;
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px;
     border-radius: 50%;
   }
