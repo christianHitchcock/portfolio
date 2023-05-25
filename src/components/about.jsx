@@ -13,7 +13,7 @@ const About = () => {
 
 
     return (
-        <>
+        <div className="container">
         <Navbar/>
         <div className="aboutimg">
             <img src={logo} alt="" />
@@ -72,7 +72,7 @@ const About = () => {
                     <button>Download Resume</button>
 
                 <Footer/>
-        </>
+        </div>
     )
 }
 
