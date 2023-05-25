@@ -4,6 +4,7 @@
 .aboutimg {
     margin-top: 20px;
     margin-left: -10px;
+    animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
      img {
        width: 200px;
        height: 200px;
@@ -16,12 +17,14 @@
     margin:0px 25px;
     font-size: 30px;
     font-family: 'Aoboshi One', serif;
+    animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   }
 h2 {
     color: #d0d0d0;
     margin:10px 25px;
     font-size: 25px;
     font-family: 'Aoboshi One', serif;  
+    animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
   P {
     color: #838383;
@@ -32,6 +35,7 @@ h2 {
     padding-right: 20px;
     font-weight: 500;
     margin-bottom: 20px;
+    animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   }
 
   .faicon {
@@ -61,4 +65,27 @@ h2 {
     background-color: #d9dcde;
     color: rgb(6, 3, 20);
     transition: ease-in-out 1s;
+  }
+  
+ 
+
+  #expBox {
+    border-top: 1px dashed #77E4D4;
+    animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    h3 {
+      color: #d0d0d0;
+      margin:10px 20px;
+      font-size: 20px;
+     
+      font-family: 'Aoboshi One', serif;  
+    }
+    span {
+      font-size: 18px;
+      margin-left: 20px;
+      color: #77E4D4 ;
+      animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    }
+    p {
+      font-size: 15px;
+    }
   }

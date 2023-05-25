@@ -58,7 +58,7 @@ function Myskill (){
        </div>
        <div className="skills">
         <BsGit className="skillsicon" />
-        <h4>BsGit</h4>
+        <h4>Git</h4>
        </div>
        <div className="skills">
         <FaPhp className="skillsicon" />

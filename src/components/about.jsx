@@ -51,29 +51,17 @@ const About = () => {
                          I love creating and building stuffs.
                        Thanks for reading 😊</p>
                     </div>}
-        <p></p>
         </div>
         <div>
         <h2 onClick={() => showExperience(!hideExperience)}>Experience 
                 {hideExperience ? <FaArrowCircleDown className="faicon"/>   :  <FaArrowCircleRight  className="faicon"/>}</h2>
        
-                {hideExperience && <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                     Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                      Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                {hideExperience && <div id="expBox">
+                    <h3>POSITION :<p> Web developer</p> </h3>
+                    <h3>COMPANY :<span>Zavion Technologies</span></h3>
+                    <h3>ROLE:<p>  Responsible for creating and maintaining the company's website.</p></h3>
+                    <h3>DURATION:<p> August 2022- january 2023</p></h3>
                     </div>}
-        <p></p>
         </div>
                     <div>
                     <h2 onClick={() => ShowContainer(!HideContainer)}>Skills

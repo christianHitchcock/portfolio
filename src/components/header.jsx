@@ -40,9 +40,9 @@ function Header () {
                         <Link href=" https://www.linkedin.com/in/christian-e-a99152183/" isExternal ><FaLinkedin className="icon"/></Link>
                         <Link href= "https://twitter.com/Theaftercolors" isExternal ><FaTwitterSquare className="icon"/></Link>  
                        </div>  
-                        <Button rightIcon={<ArrowForwardIcon />} colorScheme='teal' variant='outline'>
+                       <Link href="/about"><Button rightIcon={<ArrowForwardIcon />} colorScheme='teal' variant='outline'>
                             See More About Me
-                        </Button>
+                        </Button></Link> 
                 </div>
             </div>
         </header>
