@@ -138,13 +138,13 @@ html,body {
 }
 
 .profileimg {
- margin-top: 80px;
- margin-left: 20px;
+ margin-top: 30px;
+ margin-left: -10px;
  animation: bounce-top 3.5s ease-in-out infinite both;
   img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+      width: 150px;
+       height: 150px;
+       border-radius: 50%;
   }
 }
 
@@ -242,14 +242,14 @@ html,body {
 .skillsContainer {
   display: flex;
   flex-direction: row;
-  
+  margin-left: 20px;
   margin-top: 10px;
   .skills {
    border-radius: 5px;
     color: #000000;
     margin: 10px;
-    background: #d9dcde;
-    width: 55px;
+    background: #f0f1f2;
+    width: 60px;
     height: 55px;
     animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     -webkit-box-shadow: 10px 8px 23px -8px rgba(48,48,48,1);
@@ -262,7 +262,7 @@ box-shadow: 10px 8px 23px -8px rgba(48,48,48,1);
     }
     h4 {
       text-align: center;
-      font-size: 9px;
+      font-size: 11px;
     }
    
   }
@@ -304,7 +304,7 @@ footer {
   .heading {
     
     h1{
-      font-size: 3.2rem;
+      font-size: 3rem;
       margin-right: 30rem;
       font-weight: 800;
       color: #d9dcde;

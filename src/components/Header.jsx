@@ -1,7 +1,7 @@
 import React from "react";
 import { Link} from '@chakra-ui/react'
 import {  FaGithubSquare,FaInstagramSquare,FaLinkedin,FaTwitterSquare } from 'react-icons/fa';
-import  christian from "../images/christian.jpg"
+import logo from "../images/logo.png"
 import { Button} from '@chakra-ui/react'
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import Navbar from "./menu";
@@ -9,7 +9,7 @@ import Navbar from "./menu";
 function  Profileimg() {
     return (
         <div className="profileimg">
-            <img src={christian}  alt="facephoto" />
+            <img src={logo}  alt="facephoto" />
         </div>
     )
 }

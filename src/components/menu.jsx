@@ -4,6 +4,9 @@ import {FiMenu} from "react-icons/fi"
 import {CiCoffeeCup} from "react-icons/ci"
 
 
+
+
+
 const Navbar = () => {
     const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
    
@@ -36,8 +39,8 @@ const Navbar = () => {
                         </div>
                         <div className="sd-body">
                             <ul>
-                                <li><a className="sd-link" href="about">Home<FaHome/></a> </li>
-                                <li><a className="sd-link" href="about">About<FaUser/></a></li>
+                                <li><a className="sd-link" href="/">Home<FaHome/></a> </li>
+                                <li><a className="sd-link" href="/about">About<FaUser/></a></li>
                                 <li><a className="sd-link" href="about">Projects<FaTools/></a></li>
                                 <li><a className="sd-link" href="about">Contact<FaMailBulk/></a></li>
                                 <li><a className="sd-link" href="about"  id="download"> Download Resume<FaCloudDownloadAlt color="black"/></a></li>

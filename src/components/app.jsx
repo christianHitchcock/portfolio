@@ -1,38 +1,20 @@
 import React from "react";
-import Header from "./Header";
-// import Project from "./project";
-// import project from "../projects";
-// import Myskill from "./skills";
-import Footer from "./footer";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Home from "./home";
+import About from "./about";
 
-
-// function createCard(project) {
-//     return (
-//       <Project
-//         key={project.id}
-//         title={project.title}
-//         img={project.imgURL}
-//         Description={project.Description}
-//         stack={project.stack}
-//         link={project.link}
-//       />
-//     );
-//   }
 
 function App (){
     return(
-        <div className="container">
-            <Header/>
-            {/* <h1> Projects</h1>
-            {project.map(createCard)}
-           <button>View All Projects </button>
-           <h1>Skills</h1>
-           <Myskill/>
-           <h1>Contact </h1>*/
-           
-           <Footer/> }
+        <div>
+          <BrowserRouter>
+                <Routes>
+                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/about" element={<About />} />
+                </Routes>
+            </BrowserRouter>
         </div>
-    )
+    );
 }
 
 export  default App
