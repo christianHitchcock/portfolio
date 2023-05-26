@@ -138,15 +138,15 @@ html,body {
 }
 
 .profileimg {
- margin-top: 30px;
- margin-left: -10px;
- animation: bounce-top 3.5s ease-in-out infinite both;
-  img {
-      width: 150px;
-       height: 150px;
-       border-radius: 50%;
-  }
-}
+  margin-top: 20px;
+  margin-left: 15px;
+  animation: bounce-top 3.5s ease-in-out infinite both;
+   img {
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+   }
+ }
 
 .heading {
   margin-top: 15px;
