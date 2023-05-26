@@ -7,7 +7,7 @@ function Project(props) {
   <li key={index}>{stack}</li>
   );
   return (
-    <>
+    <div>
      <div className="card">
       <div className="top">
         <img src={props.img} alt="" />
@@ -20,7 +20,7 @@ function Project(props) {
       </ul> }
       </div>
     </div>
-    </>
+    </div>
   );
   }
   export default Project;

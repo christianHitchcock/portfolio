@@ -23,7 +23,10 @@ function Projects () {
         <div>
              <Navbar/>
             <h1> Projects</h1>
+            <div className="projectWrapper">
             {project.map(createCard)}
+            </div>
+           
            
            <Footer/> 
         </div>

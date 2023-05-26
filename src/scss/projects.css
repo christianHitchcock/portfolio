@@ -366,13 +366,13 @@ html, body {
 }
 
 .profileimg {
-  margin-top: 30px;
-  margin-left: -10px;
+  margin-top: 20px;
+  margin-left: 15px;
   animation: bounce-top 3.5s ease-in-out infinite both;
 }
 .profileimg img {
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 
@@ -550,4 +550,18 @@ footer .coffee {
 
 .slide-right {
   animation: slide-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@media only screen and (min-width: 1024px) {
+  .projectWrapper {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+  }
+  .card {
+    border: 1px solid red;
+    width: 100%;
+    margin: 0;
+    flex: 1;
+  }
 }/*# sourceMappingURL=projects.css.map */

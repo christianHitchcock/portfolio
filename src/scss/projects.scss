@@ -62,4 +62,19 @@
               animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 
-  @media only screen and (min-width: 1024px) {}
+  @media only screen and (min-width: 1024px) {
+
+    .projectWrapper {
+      border: 1px solid red;
+      display: flex;
+     justify-content: space-around;
+     
+    }
+    .card {
+      border: 1px solid red;
+      width: 100%;
+      margin: 0;
+      flex: 1;
+    }
+    
+  }
