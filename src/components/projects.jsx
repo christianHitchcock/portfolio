@@ -20,10 +20,10 @@ import Footer from "./footer";
 
 function Projects () {
     return(
-        <div>
+        <div className="projectWrapper">
              <Navbar/>
             <h1> Projects</h1>
-            <div className="projectWrapper">
+            <div >
             {project.map(createCard)}
             </div>
            

@@ -31,7 +31,7 @@ const About = () => {
                     <p>
                         Following unsuccessful attempts to pursue computer science in university. I made the decision to give it another try and pursue my passion for technology.
                        I graduated with a good degree from the department of geography and environmental management. 
-                        However, I continued to be interested in computer-related issues. During Covid I worked for a Wi-Fi company as an network operation intern. 
+                        However, I continued to be interested in computer-related issues. During Covid I worked for a Wi-Fi company as a network operation intern. 
                        learned about the internet of things. fell in love with technology. I was able to restart my tech career because of my interest in IoT and smart devices.
                        I completed some iot classes on YouTube and reached the section where I had to figure out how to write with Python and the Raspberry Pi.
                        At that point, I made the decision to enroll in a boot camp and learn how to program.
