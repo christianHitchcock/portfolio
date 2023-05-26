@@ -1,0 +1,67 @@
+@import "./styles.scss";
+
+
+#contactWrapper {
+   
+    margin-top: 20px;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ padding: 10px;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Aoboshi One', serif;
+  }
+  
+  textarea {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Aoboshi One', serif;
+  }
+
+  input[type=email] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Aoboshi One', serif;
+  }
+
+#btn {
+
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+}
+
+.icons {
+  display: flex;
+  font-size: 40px;
+  margin-left: 22px;
+  margin-bottom: 10px;
+  .icon {
+    padding-right: 20px;
+    color: #838383;
+  }
+:hover {
+  color:#77E4D4 ;
+}
+}

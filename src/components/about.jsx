@@ -27,7 +27,8 @@ const About = () => {
                 {hideContainer ? <FaArrowCircleDown className="faicon"/>   :  <FaArrowCircleRight  className="faicon"/>}</h2>
        
                 {hideContainer && <div>
-                    <p>following unsuccessful attempts to pursue computer science in university. I made the decision to give it another try and pursue my passion for technology.
+                    <p>
+                        Following unsuccessful attempts to pursue computer science in university. I made the decision to give it another try and pursue my passion for technology.
                        I graduated with a good degree from the department of geography and environmental management. 
                         However, I continued to be interested in computer-related issues. During Covid I worked for a Wi-Fi company as an network operation intern. 
                        learned about the internet of things. fell in love with technology. I was able to restart my tech career because of my interest in IoT and smart devices.

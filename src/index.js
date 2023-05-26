@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './scss/styles.scss';
 import './scss/about.scss'
+import './scss/contact.scss'
 import App from './components/app';
 
 
