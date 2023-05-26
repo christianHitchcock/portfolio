@@ -15,12 +15,12 @@ const About = () => {
     return (
         <div className="container">
         <Navbar/>
-        
-        <div>
-            <h1>Hello, I'm Christian.</h1>
-            <div className="aboutimg">
+        <div className="aboutimg">
             <img src={christian} alt="" />
         </div>
+        <div>
+            <h1>Hello, I'm Christian.</h1>
+          
             <p>I'm extremely passionate about technology and design. I specialize in frontend programming, creating elegant user interfaces and websites. I also offer photography, video editing, and graphic design services.</p>
         </div>
         <div>
