@@ -493,4 +493,61 @@ footer .coffee {
   .sidebar {
     width: 300px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+.card {
+  font-family: "Aoboshi One", serif;
+  margin: auto;
+  width: 85%;
+  margin-top: 20px;
+  position: relative;
+  height: 350px;
+  border: 1px solid #838383;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  height: 350px;
+  filter: brightness(40%);
+}
+.card .bottom {
+  position: absolute;
+  color: #f3efef;
+  top: 60%;
+  left: 5px;
+  margin: 0;
+  padding: 0;
+}
+.card .bottom h3 {
+  padding: 0 5px;
+  font-weight: 800;
+  font-size: 20px;
+  filter: brightness(80%);
+}
+.card .bottom p {
+  padding: 5px;
+  padding-right: 10px;
+  font-size: 15px;
+  line-height: 15px;
+  color: #838383;
+}
+.card .bottom ul {
+  list-style: none;
+  margin-top: -15px;
+}
+.card .bottom li {
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+  background: #696a6a;
+  color: #d3cece;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.slide-right {
+  animation: slide-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}/*# sourceMappingURL=projects.css.map */

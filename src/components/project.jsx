@@ -8,16 +8,16 @@ function Project(props) {
   );
   return (
     <>
-     <div className="card  scroll-in">
+     <div className="card">
       <div className="top">
         <img src={props.img} alt="" />
       </div>
       <div className="bottom">
-       <h2>{props.title}</h2>
+       <h3>{props.title}</h3>
        <p>{props.Description}</p>
-       <ul>
+       {<ul>
           {stackList}
-      </ul>
+      </ul> }
       </div>
     </div>
     </>
