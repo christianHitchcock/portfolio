@@ -13,7 +13,7 @@ const project = [
         title: "Bookcheclist App",
         imgURL:require("./images/book.jpg"),
         Description:"This App will help you identify the books you haven't read.",
-        stack: ["Html" ,'CSS', 'Javascript', 'node.js',' mongodb '],
+        stack: ["Html" ,'Css', 'Javascript', 'node.js',' mongodb '],
         link:"https://bookchecklist.cyclic.app/"
       },
       {
@@ -21,7 +21,7 @@ const project = [
         title: "EasyBank",
         imgURL:require("./images/easybank.jpg"),
         Description:"Next Generation Digital Banking.",
-        stack: ["Html" ,'CSS', 'Javascript'],
+        stack: ["Html" ,'Css', 'Javascript'],
         link:"https://bookchecklist.cyclic.app/"
       },
       {
@@ -32,6 +32,23 @@ const project = [
         stack: ["Html" ,'CSS', 'Javascript', 'Api'],
         link:"https://bookchecklist.cyclic.app/"
       },
+      {
+        id: 5,
+        title: "Theaftercolor-Newsletter",
+        imgURL:require("./images/newsletter.jpg"),
+        Description:"Be the first to get exclusive offers and latest updates",
+        stack: ["Html" ,'Css', 'Javascript','NodeJS','Api'],
+        link:"https://theaftercolor.cyclic.app/"
+      },
+      {
+        id: 6,
+        title: "Bamboo monitor riser",
+        imgURL:require("./images/crowdfund.jpg"),
+        Description:"crowdfund rasier for beautiful handcrafted monitor stand ",
+        stack: ["Html" ,'Scss', 'Javascript'],
+        link:"https://theaftercolor.cyclic.app/"
+      },
 ]
+
 
 export default project;

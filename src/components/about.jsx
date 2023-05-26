@@ -1,6 +1,6 @@
 import  React, { useState } from "react";
 import Navbar from "./menu";
-import logo from "../images/logo.png"
+import christian from "../images/christian.jpg"
 import Myskill from "./skills";
 import Footer from "./footer";
 import { FaArrowCircleDown,FaArrowCircleRight } from "react-icons/fa";
@@ -15,11 +15,12 @@ const About = () => {
     return (
         <div className="container">
         <Navbar/>
-        <div className="aboutimg">
-            <img src={logo} alt="" />
-        </div>
+        
         <div>
             <h1>Hello, I'm Christian.</h1>
+            <div className="aboutimg">
+            <img src={christian} alt="" />
+        </div>
             <p>I'm extremely passionate about technology and design. I specialize in frontend programming, creating elegant user interfaces and websites. I also offer photography, video editing, and graphic design services.</p>
         </div>
         <div>
