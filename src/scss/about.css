@@ -228,7 +228,7 @@ header .animate-scroll {
 }
 
 html, body {
-  font-family: Helvetica, sans-serif;
+  font-family: "Aoboshi One", serif;
   background-color: #03010f;
   background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
 }
@@ -654,11 +654,11 @@ button:hover {
 #expBox h3 {
   color: #d0d0d0;
   margin: 10px 20px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Aoboshi One", serif;
 }
 #expBox span {
-  font-size: 18px;
+  font-size: 15px;
   margin-left: 20px;
   color: #77E4D4;
   animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;

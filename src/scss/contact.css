@@ -599,6 +599,14 @@ input[type=text], select {
   font-family: "Aoboshi One", serif;
 }
 
+input::-moz-placeholder {
+  font-size: 15px;
+}
+
+input::placeholder {
+  font-size: 15px;
+}
+
 textarea {
   width: 90%;
   padding: 12px 20px;
@@ -608,6 +616,14 @@ textarea {
   border-radius: 4px;
   box-sizing: border-box;
   font-family: "Aoboshi One", serif;
+}
+
+textarea::-moz-placeholder {
+  font-size: 15px;
+}
+
+textarea::placeholder {
+  font-size: 15px;
 }
 
 input[type=email] {

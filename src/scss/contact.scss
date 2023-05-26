@@ -22,7 +22,9 @@ input[type=text], select {
     box-sizing: border-box;
     font-family: 'Aoboshi One', serif;
   }
-  
+  input::placeholder {
+    font-size: 15px;
+  }
   textarea {
     width: 90%;
     padding: 12px 20px;
@@ -34,6 +36,10 @@ input[type=text], select {
     font-family: 'Aoboshi One', serif;
   }
 
+  textarea::placeholder {
+    font-size: 15px;
+  }
+  
   input[type=email] {
     width: 90%;
     padding: 12px 20px;
