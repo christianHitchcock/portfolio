@@ -71,3 +71,17 @@ input[type=text], select {
   color:#77E4D4 ;
 }
 }
+@media only screen and (min-width: 1024px) {
+  input[type=text], select {
+    width: 60%;
+    
+  }
+  input[type=email], select {
+    width: 60%;
+    
+  }
+  textarea {
+    width: 60%;
+  }
+
+}

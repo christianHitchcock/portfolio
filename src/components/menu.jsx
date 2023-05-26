@@ -41,7 +41,7 @@ const Navbar = () => {
                             <ul>
                                 <li><a className="sd-link" href="/">Home<FaHome/></a> </li>
                                 <li><a className="sd-link" href="/about">About<FaUser/></a></li>
-                                <li><a className="sd-link" href="/">Projects<FaTools/></a></li>
+                                <li><a className="sd-link" href="/projects">Projects<FaTools/></a></li>
                                 <li><a className="sd-link" href="/contact">Contact<FaMailBulk/></a></li>
                                 <li><a className="sd-link" href="/"  id="download"> Download Resume<FaCloudDownloadAlt color="black"/></a></li>
                                 <li><a className="sd-link" href="https://bmc.link/hitchcock" id="coffee" target="_blank" rel="noreferrer"> Buy me a coffee<CiCoffeeCup color="black"/></a></li>

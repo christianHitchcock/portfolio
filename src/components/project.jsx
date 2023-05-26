@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Project(props) {
   const stack = props.stack;
   const stackList = stack.map((stack,index) =>  
@@ -7,7 +8,7 @@ function Project(props) {
   );
   return (
     <>
-    <div className="card  scroll-in">
+     <div className="card  scroll-in">
       <div className="top">
         <img src={props.img} alt="" />
       </div>
@@ -20,7 +21,6 @@ function Project(props) {
       </div>
     </div>
     </>
-    
   );
   }
   export default Project;
