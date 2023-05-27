@@ -1,23 +1,29 @@
-import { React,useState }  from "react";
+import { React,useState}  from "react";
 import Navbar from "./menu";
 import { Link} from '@chakra-ui/react'
 import {  FaGithubSquare,FaInstagramSquare,FaLinkedin,FaTwitterSquare } from 'react-icons/fa';
 import { send } from 'emailjs-com';
 import Footer from "./footer";
 import { Textarea } from "@chakra-ui/react";
-
-
+import Modal from 'react-modal';
+Modal.setAppElement('#root');
 
 const Contact = () => {
-    
+ 
+  const [modalIsOpen, setModalIsOpen] = useState(false);
     const [toSend, setToSend] = useState({
         from_name: '',
         to_name: '',
         message: '',
         reply_to: '',
       });
-    
       const onSubmit = (e) => {
+       setToSend({
+        from_name: '',
+        to_name: '',
+        message: '',
+        reply_to: '',
+       })
         e.preventDefault();
         send(
           'service_urav2t8',
@@ -26,8 +32,10 @@ const Contact = () => {
           '7wyChFJFakFyqJg8v'
         )
           .then((response) => {
-            console.log('SUCCESS!', response.status, response.text);
+            console.log("Success", response.status, response.text)
+            setModalIsOpen(true)
           })
+         
           .catch((err) => {
             console.log('FAILED...', err);
           });
@@ -38,8 +46,18 @@ const Contact = () => {
       };
 
     return (
-        <div className="container">
+      <>
+  
+
+      <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} className='Modal'>
+        <p>Thank you!</p>
+        <p>Your message was sent successfully.</p>
+        <button onClick={() => setModalIsOpen(false)}>Close</button>
+      </Modal>
+    
+      <div className="container">
              <Navbar/>
+
              <div id="contactWrapper">
             <h1>Get in touch</h1>
             <p>Email:cemekaoji@gmail.com</p>
@@ -79,6 +97,8 @@ const Contact = () => {
 </form>
         <Footer/>
         </div>
+      </>
+   
     )
 }
 

@@ -366,13 +366,13 @@ html, body {
 }
 
 .profileimg {
-  margin-top: 30px;
-  margin-left: -10px;
+  margin-top: 20px;
+  margin-left: 15px;
   animation: bounce-top 3.5s ease-in-out infinite both;
 }
 .profileimg img {
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 
@@ -409,6 +409,157 @@ html, body {
 }
 .heading .icons :hover {
   color: #77E4D4;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  width: 100%;
+  margin: 20px 0px;
+  padding: 10px;
+  border-top: 1px solid #636363;
+}
+footer p {
+  color: #ccc;
+  font-size: 13px;
+}
+footer p span {
+  color: #77E4D4;
+}
+footer .coffee {
+  color: #efe823;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    align-items: center;
+    margin: 10px 200px;
+  }
+  .heading h1 {
+    font-size: 2rem;
+    margin-right: 40rem;
+    font-weight: 800;
+    color: #d9dcde;
+    font-family: "Aoboshi One", serif;
+  }
+  .heading p {
+    color: #838383;
+    padding-top: 10px;
+    padding-left: 22px;
+    line-height: 30px;
+    font-size: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+    margin-right: 20rem;
+    margin-bottom: 20px;
+  }
+  .heading .icons {
+    display: flex;
+    font-size: 50px;
+    margin-left: 22px;
+    margin-bottom: 30px;
+  }
+  .heading .icons .icon {
+    padding-right: 20px;
+    color: #838383;
+  }
+  .heading .icons :hover {
+    color: #77E4D4;
+    font-size: 70px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px;
+    border-top: 1px solid #636363;
+  }
+  footer p {
+    color: #ccc;
+    font-size: 15px;
+  }
+  footer p span {
+    color: #77E4D4;
+  }
+  footer .coffee {
+    font-size: 40px;
+  }
+  .sidebar {
+    width: 300px;
+  }
+}
+.heading {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.heading h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #d9dcde;
+  font-family: "Aoboshi One", serif;
+}
+.heading p {
+  color: #838383;
+  padding-top: 10px;
+  padding-left: 22px;
+  line-height: 25px;
+  font-size: 18px;
+  padding-right: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.heading .icons {
+  display: flex;
+  font-size: 40px;
+  margin-left: 22px;
+  margin-bottom: 15px;
+}
+.heading .icons .icon {
+  padding-right: 20px;
+  color: #838383;
+}
+.heading .icons :hover {
+  color: #77E4D4;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.skillsContainer .skills {
+  border-radius: 5px;
+  color: #000000;
+  margin: 10px;
+  background: #f0f1f2;
+  width: 60px;
+  height: 55px;
+  animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  box-shadow: 10px 8px 23px -8px rgb(48, 48, 48);
+}
+
+.skillsContainer .skills .skillsicon {
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.skillsContainer .skills h4 {
+  text-align: center;
+  font-size: 11px;
+}
+
+.skillsContainer .skills:hover {
+  border: 2px solid #77E4D4;
 }
 
 footer {

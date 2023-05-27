@@ -71,6 +71,21 @@ input[type=text], select {
   color:#77E4D4 ;
 }
 }
+.Modal {
+  position: absolute;
+  top: 90px;
+  left: 40px;
+  right: 40px;
+  height: 250px;
+  transition: none;
+  border-radius: 5px;
+  background-color: #03010f;
+  p {
+    color: #77E4D4;
+    text-align: center;
+  }
+
+}
 @media only screen and (min-width: 1024px) {
   input[type=text], select {
     width: 60%;
