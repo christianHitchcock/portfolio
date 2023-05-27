@@ -4,6 +4,7 @@ import christian from "../images/christian.jpg"
 import Myskill from "./skills";
 import Footer from "./footer";
 import { FaArrowCircleDown,FaArrowCircleRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const About = () => {
@@ -71,7 +72,7 @@ const About = () => {
        
                 {HideContainer && <div><Myskill/></div>}
                     </div>
-                    <button>Download Resume</button>
+                    <Link href=" https://docs.google.com/document/d/1jop9LWzKtjmhZLF8DtyF25iImMwlww2j/edit?usp=drive_link&ouid=111519485417997906268&rtpof=true&sd=true"><button>Download Resume</button></Link>
 
                 <Footer/>
         </div>

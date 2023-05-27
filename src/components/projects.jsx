@@ -26,7 +26,7 @@ function Projects () {
             <div >
             {project.map(createCard)}
             </div>
-           
+
            
            <Footer/> 
         </div>
