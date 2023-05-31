@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer>
         <div>
-        <p> ⓒ {year} Designed and Built by <span>Christian</span></p>
+        <p> ⓒ {year} Designed and Built by <a href="inktr.ee/hitcchcock">Christian</a></p>
       <p>All Rights Reserved</p>
         </div>
       

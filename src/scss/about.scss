@@ -43,31 +43,28 @@ h2 {
     margin-left: 5px;
     color: #77E4D4 ;
   }
-
-  button {
+.resume {
+  a {
     display: inline-block;
     border: 2px solid #77E4D4 ;
     background-color: transparent;
     border-radius: 2em;
-    margin-top: 40px;
-    margin-left: 90px;
-    margin-bottom: 20px;
+    margin-left: 15px;
+    text-decoration: none;
     padding: 1em 2em;
     text-transform: uppercase;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     letter-spacing: 0.1em;
     transition: border 500ms, background-color 500ms, color 500ms;
     cursor: pointer;
     color: #d9dcde;
     animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   }
-  button:hover {
-    background-color: #d9dcde;
-    color: rgb(6, 3, 20);
-    transition: ease-in-out 1s;
-  }
+}
+
   
  
+
 
   #expBox {
     border-top: 1px dashed #77E4D4;

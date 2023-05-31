@@ -564,6 +564,7 @@ footer .coffee {
 
 footer {
   display: flex;
+  animation: none;
   justify-content: space-between;
   bottom: 0;
   width: 100%;
@@ -574,9 +575,11 @@ footer {
 footer p {
   color: #ccc;
   font-size: 13px;
+  animation: none;
 }
-footer p span {
+footer p a {
   color: #77E4D4;
+  animation: none;
 }
 footer .coffee {
   color: #efe823;

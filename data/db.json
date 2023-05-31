@@ -1,0 +1,51 @@
+{ "projects":[
+  {"id": 1,
+  "title": "Zavion Technologies",
+  "imgURL":"../images/zavion.jpg",
+  "Description":"A multinational technology company that specializes in top-tier network design services .", 
+  "stack": "Wordpress, Html, Css",
+  "link":"https://zavionengineeringtechnologies.com/",
+  "about" :"Zavion Engineering and Technologies Ltd is a multinational technology company that specializes in top-tier network design services, microwave transmission planning and deployment, mobile network operations, offshore communications, transportation communications, power and energy connectivity, dynamic resource and training services."
+  },
+  {"id": 2,
+  "title": "EasyBank",
+  "imgURL":"../images/easybank.jpg",
+  "Description":"Next Generation Digital Banking.", 
+  "stack": "Html, Css, Javascript",
+  "link":"https://easybankapplandingpage.netlify.app/",
+  "about": "Take your financial life online.Your EasyBank will help you in saving , spending , budgetingand much more"
+  },
+  {"id": 3,
+  "title": "Bookcheclist App",
+  "imgURL":"../images/book.jpg",
+  "Description":"This App will help you identify the books you haven't read.", 
+  "stack": "Html,Css,Javascript,node.js, mongodb ",
+  "link":"https://bookchecklist.cyclic.app/",
+  "about": " A mobile web app for Writing down the titles of books you want to read and check them off after reading"
+  },
+  {"id": 4,
+  "title":"Ip Address Tracker",
+  "imgURL":"../images/ipaddress.jpg",
+  "Description":"A website that enables you to track your ip address", 
+  "stack": "Html, CSS, Javascript,Api",
+  "link":"https://trackmyips.netlify.app/",
+  "about":"Search for location and see what your ip address is now."
+  },
+  {"id": 5,
+  "title": "Theaftercolor-Newsletter",
+  "imgURL":"../images/newsletter.jpg",
+  "Description":"Be the first to get exclusive offers and latest updates", 
+  "stack": "Html, Css, Javascript, NodeJS, Api",
+  "link":"https://theaftercolor.cyclic.app/",
+  "about":"Subscribe to TheAftercolor newsletter and get all the latest updates"
+  },
+  {"id": 6,
+  "title": "Bamboo monitor riser",
+  "imgURL":"../images/crowdfund.jpg",
+  "Description":"crowdfund rasier for beautiful handcrafted monitor stand ", 
+  "stack": "Html, Scss, Javascript",
+  "link":"https://crowdfundingproductpages.netlify.app/",
+  "about":"A sturdy and stylish platform that elevates your screen to a more comfortable viewing height."
+  }
+]
+}

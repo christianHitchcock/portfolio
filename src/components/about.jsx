@@ -3,8 +3,9 @@ import Navbar from "./menu";
 import christian from "../images/christian.jpg"
 import Myskill from "./skills";
 import Footer from "./footer";
-import { FaArrowCircleDown,FaArrowCircleRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { FaArrowCircleDown,FaArrowCircleRight,FaCloudDownloadAlt } from "react-icons/fa";
+
+
 
 
 const About = () => {
@@ -66,14 +67,17 @@ const About = () => {
                     <h3>DURATION:<p> August 2022- january 2023</p></h3>
                     </div>}
         </div>
-                    <div>
+                    <div className="skills">
                     <h2 onClick={() => ShowContainer(!HideContainer)}>Skills
                 {HideContainer ? <FaArrowCircleDown className="faicon"/>   :  <FaArrowCircleRight  className="faicon"/>}</h2>
        
                 {HideContainer && <div><Myskill/></div>}
                     </div>
-                    <Link href=" https://docs.google.com/document/d/1jop9LWzKtjmhZLF8DtyF25iImMwlww2j/edit?usp=drive_link&ouid=111519485417997906268&rtpof=true&sd=true"><button>Download Resume</button></Link>
-
+                        <div className="resume">
+                        <a className="sd-link" href=" https://docs.google.com/document/d/1jop9LWzKtjmhZLF8DtyF25iImMwlww2j/edit?usp=drive_link&ouid=111519485417997906268&rtpof=true&sd=true" target="_blank" rel="noreferrer" id="download"> 
+                                Download Resume<FaCloudDownloadAlt color="black"/></a>
+                        </div>
+                      
                 <Footer/>
         </div>
     )

@@ -342,6 +342,7 @@ footer {
 
 footer {
   display: flex;
+  animation: none;
   justify-content: space-between;
   bottom: 0;
   width: 100%;
@@ -351,8 +352,10 @@ footer {
   p {
     color: #ccc;
     font-size: 13px;
-    span {
+    animation: none;
+    a {
       color: #77E4D4;
+      animation: none;
     }
   }
  

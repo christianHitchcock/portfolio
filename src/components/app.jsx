@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./home";
 import About from "./about";
 import Contact from "./contact";
-import Projects from "./projects";
+import Project from "./project";
+import ProjectDetails from "./projectdetails";
 
 
 function App (){
@@ -14,7 +15,8 @@ function App (){
                     <Route exact path="/" element={<Home />} />
                     <Route exact path="/about" element={<About />} />
                     <Route exact path="/contact" element={<Contact />} />
-                    <Route exact path="/projects" element={<Projects />} />
+                    <Route exact path="/project" element={<Project />} />
+                    <Route exact path="/project/:id" element={<ProjectDetails />} />
                 </Routes>
             </BrowserRouter>
         </div>
