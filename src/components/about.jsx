@@ -1,6 +1,6 @@
 import  React, { useState } from "react";
 import Navbar from "./menu";
-import christian from "./images/christian.jpg"
+import christian from "/christian.jpg"
 import Myskill from "./skills";
 import Footer from "./footer";
 import { FaArrowCircleDown,FaArrowCircleRight,FaCloudDownloadAlt } from "react-icons/fa";

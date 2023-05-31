@@ -2,7 +2,7 @@ import React from "react";
 import { Link} from '@chakra-ui/react'
 import {  FaGithubSquare,FaInstagramSquare,FaLinkedin,FaTwitterSquare } from 'react-icons/fa';
 import Navbar from "./menu";
-import christian from "./images/christian.jpg"
+import christian from "/christian.jpg"
 import { Button} from '@chakra-ui/react'
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 
