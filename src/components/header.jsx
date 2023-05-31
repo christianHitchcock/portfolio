@@ -1,8 +1,9 @@
 import React from "react";
 import { Link} from '@chakra-ui/react'
+
 import {  FaGithubSquare,FaInstagramSquare,FaLinkedin,FaTwitterSquare } from 'react-icons/fa';
 import Navbar from "./menu";
-import christian from "/christian.jpg"
+
 import { Button} from '@chakra-ui/react'
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 
@@ -10,7 +11,8 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 function  Profileimg() {
     return (
         <div className="profileimg">
-            <img src={christian}  alt="facephoto" />
+           <img src={process.env.PUBLIC_URL + '/images/christian.jpg'} alt='facephoto' />
+
         </div>
     )
 }

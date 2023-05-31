@@ -1,6 +1,6 @@
 import  React, { useState } from "react";
 import Navbar from "./menu";
-import christian from "/christian.jpg"
+
 import Myskill from "./skills";
 import Footer from "./footer";
 import { FaArrowCircleDown,FaArrowCircleRight,FaCloudDownloadAlt } from "react-icons/fa";
@@ -18,7 +18,7 @@ const About = () => {
         <div className="container">
         <Navbar/>
         <div className="aboutimg">
-            <img src={christian} alt="" />
+        <img src={process.env.PUBLIC_URL + '/images/christian.jpg'} alt='facephoto' />
         </div>
         <div>
             <h1>Hello, I'm Christian.</h1>
