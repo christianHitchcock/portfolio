@@ -8,7 +8,7 @@ import useFetch from "./useFetch";
 
 
 const Project = () => {
-    const {data:projects} = useFetch('http://localhost:8000/projects')
+    const {data:projects} = useFetch('https://localhost:8000/projects')
 
    
     return (
