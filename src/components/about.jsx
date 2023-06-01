@@ -20,7 +20,7 @@ const About = () => {
         <div className="aboutimg">
         <img src={process.env.PUBLIC_URL + '/images/christian.jpg'} alt='facephoto' />
         </div>
-        <div>
+        <div className="about-contents">
             <h1>Hello, I'm Christian.</h1>
           
             <p>I'm extremely passionate about technology and design. I specialize in frontend programming, creating elegant user interfaces and websites. I also offer photography, video editing, and graphic design services.</p>
@@ -29,7 +29,7 @@ const About = () => {
         <h2 onClick={() => showContainer(!hideContainer)}>History
                 {hideContainer ? <FaArrowCircleDown className="faicon"/>   :  <FaArrowCircleRight  className="faicon"/>}</h2>
        
-                {hideContainer && <div>
+                {hideContainer && <div className="about-contents" >
                     <p>
                         Following unsuccessful attempts to pursue computer science in university. I made the decision to give it another try and pursue my passion for technology.
                        I graduated with a good degree from the department of geography and environmental management. 
@@ -62,7 +62,7 @@ const About = () => {
        
                 {hideExperience && <div id="expBox">
                     <h3>POSITION :<p> Web developer</p> </h3>
-                    <h3>COMPANY :<span>Zavion Technologies</span></h3>
+                    <h3>COMPANY :<p>Zavion Technologies</p></h3>
                     <h3>ROLE:<p>  Responsible for creating and maintaining the company's website.</p></h3>
                     <h3>DURATION:<p> August 2022- january 2023</p></h3>
                     </div>}

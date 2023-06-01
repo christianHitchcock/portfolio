@@ -184,7 +184,7 @@ html,body {
 }
 
 
-// footer designs
+// styling for footer component
 
 footer {
   display: flex;
@@ -193,10 +193,12 @@ footer {
   width: 100%;
   margin: 20px 0px; 
   padding: 10px;
-  border-top:1px solid #636363 ;
+  border-top:1px solid #252525 ;
   p {
     color: #ccc;
     font-size: 13px;
+    padding: 0;
+    margin: 0;
     span {
       color: #77E4D4;
     }
@@ -257,7 +259,7 @@ footer {
     width: 100%;
     margin: 20px 0px; 
     padding: 10px;
-    border-top:1px solid #636363 ;
+    border-top:1px solid #252525 ;
     p {
       color: #ccc;
       font-size: 15px;
@@ -340,94 +342,94 @@ footer {
 
 // footer designs
 
-footer {
-  display: flex;
-  animation: none;
-  justify-content: space-between;
-  bottom: 0;
-  width: 100%;
-  margin: 20px 0px; 
-  padding: 10px;
-  border-top:1px solid #636363 ;
-  p {
-    color: #ccc;
-    font-size: 13px;
-    animation: none;
-    a {
-      color: #77E4D4;
-      animation: none;
-    }
-  }
+// footer {
+//   display: flex;
+//   animation: none;
+//   justify-content: space-between;
+//   bottom: 0;
+//   width: 100%;
+//   margin: 20px 0px; 
+//   padding: 10px;
+//   border-top:1px solid #636363 ;
+//   p {
+//     color: #ccc;
+//     font-size: 13px;
+//     animation: none;
+//     a {
+//       color: #77E4D4;
+//       animation: none;
+//     }
+//   }
  
-  .coffee {
-    color:  #efe823;
-    font-size: 30px;
-    padding: 10px;
-    border-radius: 50%;
-  }
-}
+//   .coffee {
+//     color:  #efe823;
+//     font-size: 30px;
+//     padding: 10px;
+//     border-radius: 50%;
+//   }
+// }
 
-@media only screen and (min-width: 1024px) {
-  .container {
-    align-items: center;
-    margin: 10px 200px;
-  }
-  .heading {
+// @media only screen and (min-width: 1024px) {
+//   .container {
+//     align-items: center;
+//     margin: 10px 200px;
+//   }
+//   .heading {
     
-    h1{
-      font-size: 2rem;
-      margin-right: 40rem;
-      font-weight: 800;
-      color: #d9dcde;
-      font-family: 'Aoboshi One', serif;
-    }
-    p{
-      color: #838383;
-      padding-top: 10px;
-      padding-left: 22px;
-      line-height: 30px;
-      font-size: 20px;
-      padding-right: 20px;
-      font-weight: 500;
-      margin-right: 20rem;
-      margin-bottom: 20px;
-    }
-    .icons {
-      display: flex;
-      font-size: 50px;
-      margin-left: 22px;
-      margin-bottom: 30px;
-      .icon {
-        padding-right: 20px;
-        color: #838383;
-      }
-    :hover {
-      color:#77E4D4 ;
-      font-size: 70px;
-    }
-    }
-  }
-  footer {
-    display: flex;
-    justify-content: space-between;
-    bottom: 0;
-    width: 100%;
-    margin: 20px 0px; 
-    padding: 10px;
-    border-top:1px solid #636363 ;
-    p {
-      color: #ccc;
-      font-size: 15px;
-      span {
-        color: #77E4D4;
-      }
-    }
+//     h1{
+//       font-size: 2rem;
+//       margin-right: 40rem;
+//       font-weight: 800;
+//       color: #d9dcde;
+//       font-family: 'Aoboshi One', serif;
+//     }
+//     p{
+//       color: #838383;
+//       padding-top: 10px;
+//       padding-left: 22px;
+//       line-height: 30px;
+//       font-size: 20px;
+//       padding-right: 20px;
+//       font-weight: 500;
+//       margin-right: 20rem;
+//       margin-bottom: 20px;
+//     }
+//     .icons {
+//       display: flex;
+//       font-size: 50px;
+//       margin-left: 22px;
+//       margin-bottom: 30px;
+//       .icon {
+//         padding-right: 20px;
+//         color: #838383;
+//       }
+//     :hover {
+//       color:#77E4D4 ;
+//       font-size: 70px;
+//     }
+//     }
+//   }
+//   footer {
+//     display: flex;
+//     justify-content: space-between;
+//     bottom: 0;
+//     width: 100%;
+//     margin: 20px 0px; 
+//     padding: 10px;
+//     border-top:1px solid #636363 ;
+//     p {
+//       color: #ccc;
+//       font-size: 15px;
+//       span {
+//         color: #77E4D4;
+//       }
+//     }
    
-    .coffee { 
-      font-size: 40px;
-    }
-  }
-  .sidebar{
-    width: 300px;
-  }
-}
+//     .coffee { 
+//       font-size: 40px;
+//     }
+//   }
+//   .sidebar{
+//     width: 300px;
+//   }
+// }

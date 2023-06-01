@@ -18,7 +18,7 @@ const ProjectDetails = () => {
     }
 
     const {id} = useParams();
-    const {data:project} = useFetch('https://localhost:8000/projects/' + id);
+    const {data:project} = useFetch('http://localhost:8000/projects/' + id);
     return (
         <div className="container">
             

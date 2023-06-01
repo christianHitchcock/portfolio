@@ -139,13 +139,24 @@
     }
     
     .bottom {
-     left: 20px;
+      
+     h3 {
+      margin-left: 20px;
+     }
+
+     p {
+      margin-left: 20px;
+     
+     }
+     	ul {
+        margin-left: 20px;
+      }
     }
   
   .project-preview {
       font-family: 'Aoboshi One', serif;
       float: left;
-      width: 25%;
+      width: 30%;
       padding: 0 10px;
       box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
       animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -159,18 +170,18 @@
  
     .detailscontent {
       margin-top: 30px;
-      margin-left: 70px;
+      margin-left: 100px;
   img {
-    width: 60%;
+    width: 40%;
     border-radius: 15px;
     height: 350px;
-    margin-left: 20px;
+    margin-left: 90px;
     border: 1px solid #696a6a;
     filter: brightness(100%);
   }
   p {
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 15px;
+    line-height: 20px;
     margin-right: 250px;
     animation: none;
   }
