@@ -8,7 +8,7 @@ import useFetch from "./useFetch";
 
 
 const Project = () => {
-    const {data:projects} = useFetch('http://localhost:8000/projects')
+    const {data:projects} = useFetch('https://project-data-cs1c.onrender.com/projects/')
 
    
     return (
