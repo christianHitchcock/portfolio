@@ -1,6 +1,6 @@
 import  React, { useState } from "react";
 import Navbar from "./menu";
-
+import Otherskills from "./otherskills";
 import Myskill from "./skills";
 import Footer from "./footer";
 import { FaArrowCircleDown,FaArrowCircleRight,FaCloudDownloadAlt } from "react-icons/fa";
@@ -12,7 +12,7 @@ const About = () => {
     const [HideContainer , ShowContainer] = useState(false);
     const [hideContainer , showContainer] = useState(false);
     const [hideExperience , showExperience] = useState(false);
-
+    const [hideSkills , showSkills] = useState(false);
 
     return (
         <div className="container">
@@ -33,7 +33,7 @@ const About = () => {
                     <p>
                         Following unsuccessful attempts to pursue computer science in university. I made the decision to give it another try and pursue my passion for technology.
                        I graduated with a good degree from the department of geography and environmental management. 
-                        However, I continued to be interested in computer-related issues. During Covid I worked for a Wi-Fi company as a network operation intern. 
+                        However, I continued to be interested in computer-related issues. During the lockdown due to Covid-19 pandemic I worked for a Wi-Fi company as a network operation intern. 
                        learned about the internet of things. fell in love with technology. I was able to restart my tech career because of my interest in IoT and smart devices.
                        I completed some iot classes on YouTube and reached the section where I had to figure out how to write with Python and the Raspberry Pi.
                        At that point, I made the decision to enroll in a boot camp and learn how to program.
@@ -68,10 +68,16 @@ const About = () => {
                     </div>}
         </div>
                     <div className="skills">
-                    <h2 onClick={() => ShowContainer(!HideContainer)}>Skills
+                    <h2 onClick={() => ShowContainer(!HideContainer)}> Technologies
                 {HideContainer ? <FaArrowCircleDown className="faicon"/>   :  <FaArrowCircleRight  className="faicon"/>}</h2>
-       
+                    
                 {HideContainer && <div><Myskill/></div>}
+                    </div>
+                    <div className="skills">
+                    <h2 onClick={() => showSkills(!hideSkills)}> Proffesional Skills
+                {hideSkills ? <FaArrowCircleDown className="faicon"/>   :  <FaArrowCircleRight  className="faicon"/>}</h2>
+                    
+                {hideSkills && <div><Otherskills/></div>}
                     </div>
                         <div className="resume">
                         <a className="sd-link" href=" https://docs.google.com/document/d/1jop9LWzKtjmhZLF8DtyF25iImMwlww2j/edit?usp=drive_link&ouid=111519485417997906268&rtpof=true&sd=true" target="_blank" rel="noreferrer" id="download"> 
