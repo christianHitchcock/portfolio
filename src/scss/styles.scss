@@ -7,11 +7,32 @@
     box-sizing: border-box;
   }
 
-html,body {
-  font-family: 'Aoboshi One', serif;
-  background-color: #03010f;
-  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
-}
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    background: linear-gradient(45deg, #03010f 50%, darken(#cadbe9, 50%) 100%);
+    background-size: 200% 200%;  
+    height: 100%;
+    width: 100%;
+    animation: background 6s ease infinite;
+  }
+  
+  @keyframes background { 
+    0% {
+      background-position: 0% 50%;
+    }
+    
+    50% {
+      background-position: 100% 50%;
+    }
+    
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 .container {
   h1 {
     color: #d0d0d0;
