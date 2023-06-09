@@ -93,7 +93,7 @@ const Contact = () => {
     onChange={handleChange}
   />
   
-  <button type='submit' id="btn">Submit</button>
+  <button type='submit' id="btn">Send</button>
 </form>
         <Footer/>
         </div>
