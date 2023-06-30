@@ -227,12 +227,31 @@ header .animate-scroll {
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: "Aoboshi One", serif;
-  background-color: #03010f;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
+html {
+  width: 100%;
+  height: 100%;
 }
 
+body {
+  background: linear-gradient(45deg, #03010f 50%, #355e7f 100%);
+  background-size: 200% 200%;
+  height: 100%;
+  width: 100%;
+  animation: background 6s ease infinite;
+  font-family: "Aoboshi One", serif;
+}
+
+@keyframes background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .container h1 {
   color: #d0d0d0;
   margin: 10px 20px;
@@ -436,66 +455,6 @@ footer .coffee {
   border-radius: 50%;
 }
 
-@media only screen and (min-width: 1024px) {
-  .container {
-    align-items: center;
-    margin: 10px 200px;
-  }
-  .heading h1 {
-    font-size: 2rem;
-    margin-right: 40rem;
-    font-weight: 800;
-    color: #d9dcde;
-    font-family: "Aoboshi One", serif;
-  }
-  .heading p {
-    color: #838383;
-    padding-top: 10px;
-    padding-left: 22px;
-    line-height: 30px;
-    font-size: 20px;
-    padding-right: 20px;
-    font-weight: 500;
-    margin-right: 20rem;
-    margin-bottom: 20px;
-  }
-  .heading .icons {
-    display: flex;
-    font-size: 50px;
-    margin-left: 22px;
-    margin-bottom: 30px;
-  }
-  .heading .icons .icon {
-    padding-right: 20px;
-    color: #838383;
-  }
-  .heading .icons :hover {
-    color: #77E4D4;
-    font-size: 70px;
-  }
-  footer {
-    display: flex;
-    justify-content: space-between;
-    bottom: 0;
-    width: 100%;
-    margin: 20px 0px;
-    padding: 10px;
-    border-top: 1px solid #252525;
-  }
-  footer p {
-    color: #ccc;
-    font-size: 15px;
-  }
-  footer p span {
-    color: #77E4D4;
-  }
-  footer .coffee {
-    font-size: 40px;
-  }
-  .sidebar {
-    width: 300px;
-  }
-}
 .heading {
   margin-top: 15px;
   margin-bottom: 50px;
@@ -542,28 +501,118 @@ footer .coffee {
   border-radius: 5px;
   color: #000000;
   margin: 10px;
-  background: #f0f1f2;
-  width: 65px;
+  background: #fafcff;
+  width: 160px;
   height: 55px;
   animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   box-shadow: 10px 8px 23px -8px rgb(48, 48, 48);
 }
 
 .skillsContainer .skills .skillsicon {
-  margin-left: 15px;
+  margin-left: 60px;
   margin-top: 5px;
   font-size: 20px;
 }
 
 .skillsContainer .skills h4 {
   text-align: center;
-  font-size: 11px;
+  font-size: 15px;
+}
+
+.skillsContainer .skills h5 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
 }
 
 .skillsContainer .skills:hover {
   border: 2px solid #77E4D4;
 }
 
+@media only screen and (min-width: 1024px) {
+  .container {
+    align-items: center;
+    margin: 10px 200px;
+  }
+  .heading h1 {
+    font-size: 2rem;
+    margin-right: 40rem;
+    font-weight: 800;
+    color: #d9dcde;
+    font-family: "Aoboshi One", serif;
+  }
+  .heading p {
+    color: #838383;
+    padding-top: 10px;
+    padding-left: 22px;
+    line-height: 30px;
+    font-size: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+    margin-right: 10rem;
+    margin-bottom: 20px;
+  }
+  .heading .icons {
+    display: flex;
+    font-size: 50px;
+    margin-left: 22px;
+    margin-bottom: 30px;
+  }
+  .heading .icons .icon {
+    padding-right: 20px;
+    color: #838383;
+  }
+  .heading .icons :hover {
+    color: #77E4D4;
+    font-size: 70px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px;
+    border-top: 1px solid #252525;
+  }
+  footer p {
+    color: #ccc;
+    font-size: 15px;
+  }
+  footer p span {
+    color: #77E4D4;
+  }
+  footer .coffee {
+    font-size: 40px;
+  }
+  .sidebar {
+    width: 300px;
+  }
+  .skillsContainer .skills {
+    border-radius: 5px;
+    color: #000000;
+    margin: 10px;
+    background: #fafcff;
+    width: 210px;
+    height: 55px;
+    animation: fade-in-bottom 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    box-shadow: 10px 8px 23px -8px rgb(48, 48, 48);
+  }
+  .skillsContainer .skills .skillsicon {
+    margin-left: 90px;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  .skillsContainer .skills h4 {
+    text-align: center;
+    font-size: 15px;
+  }
+  .skillsContainer .skills h5 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+}
 #contactWrapper {
   margin-top: 20px;
 }

@@ -28,9 +28,7 @@ function Header () {
                 <Profileimg className="animate-scroll"/>
               
                 <div className="heading scroll-in">
-                    <h1>SOFTWARE DEVELOPER,
-                        DIGITAL CREATOR.
-                    </h1>
+                    <h1> FRONTEND DEVELOPER, DIGITAL CREATOR.</h1>
                     <p> Hello, I'm christian,a software Developer with a keen interest in exploring various technological solutions and frameworks,
                         I love combining the worlds of logic and creative design to make eye-catching, 
                         accessible, and user-friendly websites and applications. i pratice minimalism in photography , 
@@ -41,10 +39,11 @@ function Header () {
                         <Link href= "https://www.instagram.com/christian__hitchcock" isExternal ><FaInstagramSquare className="icon"/></Link>
                         <Link href=" https://www.linkedin.com/in/christian-e-a99152183/" isExternal ><FaLinkedin className="icon"/></Link>
                         <Link href= "https://twitter.com/Theaftercolors" isExternal ><FaTwitterSquare className="icon"/></Link>  
-                       </div>  
-                       <Link href="/about"><Button rightIcon={<ArrowForwardIcon />} colorScheme='teal' variant='outline'>
+                        <Link href="/about"><Button rightIcon={<ArrowForwardIcon />} colorScheme='teal' variant='outline'>
                             See More About Me
                         </Button></Link> 
+                       </div>  
+                       
                 </div>
             </div>
         </header>
