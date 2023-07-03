@@ -564,7 +564,6 @@ footer .coffee {
   }
   .heading .icons :hover {
     color: #77E4D4;
-    font-size: 70px;
   }
   footer {
     display: flex;
@@ -610,6 +609,6 @@ footer .coffee {
   .skillsContainer .skills h5 {
     text-align: center;
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 10px;
   }
 }/*# sourceMappingURL=styles.css.map */
